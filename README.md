@@ -1,2 +1,0 @@
-# googleAdsSense
-Created with CodeSandbox

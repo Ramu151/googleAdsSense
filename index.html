@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+      async
+      src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+    ></script>
+    <script>
+      window.googletag = window.googletag || { cmd: [] };
+      googletag.pubads().collapseEmptyDivs();
+    </script>
+  </head>
+  <body>
+    <div id="karthic" class="test" >
+      <script>
+        window.googletag = window.googletag || { cmd: [] };
+        googletag.cmd.push(function() {
+          var mapping = googletag.sizeMapping().
+
+          // Small ad
+          addSize([100, 100], [728, 90]). 
+
+          // Accepts both common mobile banner formats
+          //addSize([320, 468], [[300, 250], [300, 50]]). 
+        
+          addSize([0, 0], [300, 250]).
+
+          // Landscape tablet 
+          addSize([980, 690], [300, 250]). 
+
+          // Desktop
+          addSize([1024, 768], [728, 90]).build();
+
+          googletag
+            .defineSlot(
+              "/150205021/fr_kraftcanada/fr_kraftcanada_homepage",
+              [[728, 90]],
+              "karthic"
+            ).defineSizeMapping(mapping)
+            .setTargeting("pos", ["top"])
+            .addService(googletag.pubads()).setCollapseEmptyDiv(false);
+          googletag.enableServices();
+        });
+
+        googletag.cmd.push(function() {
+          googletag.display("karthic");
+        });
+      </script>
+     
+
+  
+  </body>
+</html>
